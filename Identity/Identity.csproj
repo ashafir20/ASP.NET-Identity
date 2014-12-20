@@ -152,6 +152,8 @@
     </Compile>
     <Compile Include="Infastructure\AppIdentityDbContext.cs" />
     <Compile Include="Infastructure\AppUserManager.cs" />
+    <Compile Include="Infastructure\CustomPasswordValidator.cs" />
+    <Compile Include="Infastructure\CustomUserValidator.cs" />
     <Compile Include="Models\AppUser.cs" />
     <Compile Include="Models\UserViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
