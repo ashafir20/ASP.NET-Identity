@@ -42,7 +42,7 @@ namespace Identity.Controllers
                         DefaultAuthenticationTypes.ApplicationCookie);
                     AuthManager.SignOut();
                     AuthManager.SignIn(new AuthenticationProperties {
-                        IsPersistent = false
+                        IsPersistent = true
                     }, ident);
 
                     return Redirect(returnUrl);
